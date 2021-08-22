@@ -1,0 +1,9 @@
+{
+  "imports": {
+    "lodash/cloneDeep": "./lodash/cloneDeep.js",
+    "lodash/find": "./lodash/find.js",
+    "lodash/remove": "./lodash/remove.js",
+    "svelte/store": "./svelte/store.js",
+    "uuid": "./uuid.js"
+  }
+}

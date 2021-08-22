@@ -1,0 +1,38 @@
+{
+  "name": "svelte-trello-snowpack",
+  "description": "Cloning Trello with Svelte & Snowpack",
+  "version": "2.1.2",
+  "license": "MIT",
+  "keywords": [
+    "csa-template"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "dev": "snowpack dev",
+    "build": "snowpack build",
+    "test": "web-test-runner \"src/**/*.test.js\""
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ],
+  "dependencies": {
+    "svelte": "^3.37.0"
+  },
+  "devDependencies": {
+    "@snowpack/plugin-babel": "^2.1.7",
+    "@snowpack/plugin-dotenv": "^2.1.0",
+    "@snowpack/plugin-optimize": "^0.2.13",
+    "@snowpack/plugin-sass": "^1.4.0",
+    "@snowpack/plugin-svelte": "^3.6.1",
+    "autoprefixer": "^10.3.2",
+    "babel-plugin-transform-remove-console": "^6.9.4",
+    "lodash": "^4.17.21",
+    "postcss": "^8.3.6",
+    "snowpack": "^3.8.0",
+    "sortablejs": "^1.14.0",
+    "uuid": "^8.3.2"
+  }
+}
